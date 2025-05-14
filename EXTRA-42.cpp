@@ -45,7 +45,6 @@ main()
     cout<<"Entered Data"<<endl;
     for(i=0;i<3;i++)
     {
-        ptr[i]=&m[i];
         ptr[i]->display();
         value=ptr[i]->valuation();
         cout<<"Valuatio = "<<value<<endl;
